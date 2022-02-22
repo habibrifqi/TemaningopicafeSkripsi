@@ -14,6 +14,8 @@
     <!-- Ionicons -->
     <link rel="stylesheet"
         href="{{ asset('template/AdminLTE3/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css') }}">
+    {{-- fontawsome 6 --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Tempusdominus Bootstrap 4 -->
     <link rel="stylesheet"
         href="{{ asset('template/AdminLTE3/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
@@ -76,7 +78,7 @@
                 @yield('content')
                 {{-- <div class="container-fluid"> --}}
                 <!-- Small boxes (Stat box) -->
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-lg-3 col-6">
                         <!-- small box -->
                         <div class="small-box bg-info">
@@ -137,7 +139,7 @@
                         </div>
                     </div>
                     <!-- ./col -->
-                </div>
+                </div> --}}
 
                 <!-- /.row -->
                 <!-- Main row -->
