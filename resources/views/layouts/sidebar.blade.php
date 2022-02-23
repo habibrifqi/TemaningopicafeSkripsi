@@ -17,6 +17,10 @@
             <div class="info">
                 <a href="#" class="d-block">Admin</a>
             </div>
+            <div class="infoo">
+                <a class="cc d-block" href="#" onclick="document.getElementById('log-out-form').submit()"><i
+                        class="fas fa-sign-out-alt"></i></a>
+            </div>
         </div>
 
         <!-- SidebarSearch Form -->
@@ -44,6 +48,7 @@
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
+                    </li>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="./index.html" class="nav-link active">
@@ -681,3 +686,6 @@
     </div>
     <!-- /.sidebar -->
 </aside>
+<form action="/logout" method="post" id="log-out-form" style="display: none">
+    @csrf
+</form>
